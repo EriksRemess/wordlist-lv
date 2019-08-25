@@ -1,0 +1,28 @@
+{
+  "name": "wordlist-lv",
+  "version": "1.0.0",
+  "description": "Latviešu valodas vārdliste",
+  "main": "index.js",
+  "module": "module.js",
+  "scripts": {
+    "build": "node buildjson.js",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EriksRemess/wordlist-lv.git"
+  },
+  "keywords": [
+    "wordlist"
+  ],
+  "author": "Ēriks Remess <eriks@remess.lv>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EriksRemess/wordlist-lv/issues"
+  },
+  "homepage": "https://github.com/EriksRemess/wordlist-lv#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
